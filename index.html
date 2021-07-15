@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Contact us</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <h1>Contact us</h1>
+      <form id="form" action="mail.php" method="POST">
+        <input
+          type="text"
+          class="input-case"
+          placeholder="Full name"
+          name="name"
+          required
+        />
+        <input
+          type="text"
+          class="input-case"
+          name="mail"
+          id="email"
+          placeholder="Email address"
+          required
+        />
+        <input
+          type="text"
+          class="input-case"
+          name="phone"
+          id="phone"
+          placeholder="Phone number"
+          required
+        />
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+          name="message"
+          required
+        ></textarea>
+        <input type="submit" value="Envoyer" class="send-btn" />
+      </form>
+      <div id="error" style="color: Tomato"></div>
+      <div id="success" style="color: green"></div>
+    </section>
+  </body>
+</html>

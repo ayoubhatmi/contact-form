@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Work+Sans:ital,wght@0,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+:root {
+  --primary-color: #e0bc75;
+  --light-color: #c5a681;
+  --dark-color: #212121;
+  --main-text-color: #ffffff;
+  --bg-color: #dcdace;
+  --alt-bg-color: #efede1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+section {
+  margin-top: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+.input-case {
+  background-color: var(--alt-bg-color);
+  padding: 1rem;
+  height: 35px;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  border: none;
+  width: 600px;
+  max-width: 100%;
+}
+
+textarea {
+  background-color: var(--alt-bg-color);
+  padding: 1rem;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  border: none;
+  width: 600px;
+  height: 200px;
+  max-width: 100%;
+}
+.send-btn {
+  color: white;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding-left: 1em;
+  font-weight: 600;
+  padding: 0.5rem;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
+.send-btn:hover {
+  color: black;
+}
